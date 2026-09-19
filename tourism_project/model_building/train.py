@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 import joblib
 import mlflow
 
-mlflow.set_tracking_uri(public_url)   # complete the code to set the MLflow tracking URI
+mlflow.set_tracking_uri("https://glazing-viewing-sporting.ngrok-free.dev")   # complete the code to set the MLflow tracking URI
 mlflow.set_experiment("MLflow_experiment")     # complete the code to set the MLflow experiment name (same as the dev experimentation cell)
 
 # Xtrain/Xtest/ytrain/ytest are downloaded from the previous job's artifact
